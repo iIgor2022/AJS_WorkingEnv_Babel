@@ -1,0 +1,35 @@
+{
+  "dependencies": {
+    "core-js": "^3.30.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.4",
+    "@babel/preset-env": "^7.21.4",
+    "eslint": "^8.37.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5"
+  },
+  "name": "babel",
+  "version": "1.0.0",
+  "description": "\"app.js\"",
+  "main": "src\\app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist",
+	"lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iIgor2022/AJS_WorkingEnv_Babel.git"
+  },
+  "keywords": [
+    "babel"
+  ],
+  "author": "Igor Ovchinnikov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iIgor2022/AJS_WorkingEnv_Babel/issues"
+  },
+  "homepage": "https://github.com/iIgor2022/AJS_WorkingEnv_Babel#readme"
+}
